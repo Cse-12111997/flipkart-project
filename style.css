@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width: 100vmax;
+    height: 10vmax;
+    background-color: rgba(45, 75, 222, 0.906);
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+nav>.flex>.searchtext{
+    height: 20px;
+    width: 50%;
+    /* background-color: black; */
+}
+nav>.flex>img{
+    /* width: 20px; */
+    height: 20px;
+    background-color: aquamarine;
+}
+nav>.flex{
+    width: 50%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav>.login{
+    width: 50%;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-around;
+    color: whitesmoke;
+    align-items: center;
+}
+.bigb>img{
+    width: 100%;
+    height:100%;
+    background-color: aqua;
+}
+.nav>img{
+    margin: 15px;
+}
+.mblphones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.femalefashion{
+    width: 100%;
+    /* height: ; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: blue; */
+}
+.footwear{
+    /* background-color: antiquewhite; */
+}
+.westernwear{
+ /* background-color: azure; */
+}.purses{
+    /* background-color: brown */
+}
+.indianwear{
+    /* background-color: antiquewhite; */
+}
+.cosmetics{
+    /* background-color: blueviolet; */
+}
+.malefashion{
+    width: 100%;
+    /* height: 150px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.Menwesternwear{
+    /* background-color: aquamarine; */
+}
+.Menindianwear{
+    /* background-color: blue; */
+}
+.wallets{
+    /* background-color: bisque; */
+}
+.kidsfashion{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: blueviolet; */
+}
+/* .kidswesternwear{
+    background-color: blue;
+}
+.Kidsindianwear{
+    background-color: brown;
+}
+.toys{
+    background-color: aquamarine;
+}
+.Rhymes{
+    background-color: rgb(29, 199, 117);
+}
+.footwear{
+    background-color: fuchsia;
+} */
+.toys>h4{
+    left: 45%;
+    position: absolute;
+
+    /* color: orange; */
+}
+/* .Rhymes{
+    right: 30%;
+    position: absolute;
+} */
